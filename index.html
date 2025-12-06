@@ -1,0 +1,160 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Swiggy Clone — HTML & CSS</title>
+ 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container top-inner">
+      <div class="brand">
+        <div class="logo">swig<span>gy</span></div>
+      </div>
+
+      <div class="search-area">
+        <div class="location">
+          <span class="loc-emoji">📍</span>
+          <input type="text" placeholder="Enter delivery location" aria-label="location" />
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search for restaurants, dishes or cuisines" aria-label="search" />
+        </div>
+      </div>
+
+      <nav class="nav-actions">
+        <button class="btn ghost">Offers</button>
+        <button class="btn ghost">Help</button>
+        <button class="btn primary">Sign in</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1>Delicious food delivered to your door</h1>
+        <p>Explore restaurants, quick Biryani, Pizza, Chinese and more — curated for you.</p>
+
+        <div class="quick-filters">
+          <div class="chip">Pure Veg</div>
+          <div class="chip">Fast Delivery</div>
+          <div class="chip">Top Rated</div>
+          <div class="chip">Offers</div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+    
+        <div class="delivery-card">
+          <div class="delivery-top">
+            <div class="circle">🍔</div>
+            <div>
+              <div class="small">Your nearest</div>
+              <div class="bold">Food Hub</div>
+            </div>
+          </div>
+          <div class="delivery-items">
+            <div class="item">Pizza — 20% off</div>
+            <div class="item">Biryani — Popular</div>
+            <div class="item">Chinese — Instant</div>
+          </div>
+          <div class="eta">Avg delivery 30-40 mins</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="categories container">
+    <div class="cat">Pizza</div>
+    <div class="cat">Biryani</div>
+    <div class="cat">Chinese</div>
+    <div class="cat">Desserts</div>
+    <div class="cat">Beverages</div>
+    <div class="cat">Healthy</div>
+  </div>
+
+  <main class="container restaurants">
+    <h2 class="section-title">Popular Near You</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-media" style="background-image:linear-gradient(120deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('');">
+          <div class="badge">4.5 ★ • 30 mins</div>
+        </div>
+        <div class="card-body">
+          <h3>Pizza Palace</h3>
+          <p class="muted">Italian • ₹300 for two</p>
+          <div class="tags">
+            <span>• Pure veg</span>
+            <span>• 25% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-media"></div>
+        <div class="card-body">
+          <h3>Biryani House</h3>
+          <p class="muted">Mughlai • ₹400 for two</p>
+          <div class="tags"><span>• Popular</span><span>• Express</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-media"></div>
+        <div class="card-body">
+          <h3>China Town</h3>
+          <p class="muted">Chinese • ₹250 for two</p>
+          <div class="tags"><span>• Combo</span><span>• Fast</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-media"></div>
+        <div class="card-body">
+          <h3>Sweets & More</h3>
+          <p class="muted">Desserts • ₹200 for two</p>
+          <div class="tags"><span>• Desserts</span><span>• 15% OFF</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-media"></div>
+        <div class="card-body">
+          <h3>Wrap It!</h3>
+          <p class="muted">Fast Food • ₹180 for two</p>
+          <div class="tags"><span>• Quick Bites</span><span>• Under 30</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-media"></div>
+        <div class="card-body">
+          <h3>Salad Stop</h3>
+          <p class="muted">Healthy • ₹350 for two</p>
+          <div class="tags"><span>• Healthy</span><span>• Fresh</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <strong>swiggy-clone</strong> — built with HTML & CSS</div>
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Careers</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
